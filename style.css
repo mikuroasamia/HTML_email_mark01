@@ -1,5 +1,5 @@
 body {
-  background-color: #ffca0a;
+  background-color: #ffc801;
   width: 100vw;
   height: 100vh;
 }
@@ -30,6 +30,7 @@ h1, p {
 
 button {
   margin: 2rem 0;
+  color: #ff1b72;
 }
 
 body,
