@@ -21,6 +21,7 @@ body {
   width: 100vw;
   height: 100vh;
   font-size: 16px;
+  font-family: verdana sans-serif;
 }
 
 body,
@@ -42,6 +43,15 @@ h1, p {
   padding: 0;
 }
 
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
 .container {
   max-width: 800px;
   background: #fff;
@@ -50,10 +60,6 @@ h1, p {
 .section-text {
   width: 100%;
   background-color: #fff;
-}
-
-h1, p {
-  margin: 0.5rem 0;
 }
 
 .btn {
