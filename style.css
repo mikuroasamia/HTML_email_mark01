@@ -1,0 +1,47 @@
+
+body{
+  background-color: #ffca0a;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1, p {
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 600px;
+  height: 350px;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.section-text{
+  width: 600px;
+  height: 150px;
+  background-color: #fff;
+}
+
+h1, p {
+  margin: 0.5rem 0;
+}
+
+button {
+  margin: 2rem 0;
+}
+
+body,
+.container,
+.section-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container,
+.section-text {
+    flex-direction: column;
+}
