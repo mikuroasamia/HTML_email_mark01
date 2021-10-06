@@ -72,9 +72,16 @@ h1, p {
   padding: 0;
 }
 
+.section-text h1 {
+  margin-bottom: 1rem;
+}
+
 h1 {
   font-size: 2rem;
-  margin-bottom: 1rem;
+}
+
+.title {
+  color: #fff;
 }
 
 p {
@@ -84,18 +91,21 @@ p {
 .newsletter,
 footer {
   width: 100%;
-  background-color: #fff;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
 .newsletter {
-  margin-top: 2rem;
+  height: 20%;
+  background-color: black;
 }
 
 .container {
   max-width: 800px;
+  height: 50%;
   background: #fff;
+  margin: 3rem 0;
 }
 
 .section-text {
@@ -135,6 +145,12 @@ footer {
 
 footer {
   margin-bottom: 0;
+  background-color: black;
+  min-height: 20%;
+}
+
+footer p {
+  color: #fff;
 }
 
 .footer-container,
@@ -148,4 +164,15 @@ footer {
 
 ul li {
   font-size: 1.2rem;
+
+}
+
+li a {
+  color: #ffc801;
+
+}
+
+.fab::before,
+.fas::before {
+  color: #ff1b72;
 }
