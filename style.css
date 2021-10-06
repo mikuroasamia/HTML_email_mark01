@@ -1,42 +1,26 @@
+/* normalize */
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+/* body */
+
 body {
   background-color: #ffc801;
   width: 100vw;
   height: 100vh;
   font-size: 16px;
-}
-
-h1, p {
-  color: black;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  width: 600px;
-  height: 350px;
-  margin: 0;
-  padding: 0;
-  background: #fff;
-}
-
-.section-text {
-  width: 600px;
-  height: 150px;
-  background-color: #fff;
-}
-
-h1, p {
-  margin: 0.5rem 0;
-}
-
-.btn {
-  margin: 2rem 0;
-  color: white;
-  background-color: #ff1b72;
-  border: none;
-  border-radius: 20px;
-  width: 80px;
-  height: 100px;
 }
 
 body,
@@ -50,4 +34,37 @@ body,
 .container,
 .section-text {
   flex-direction: column;
+}
+
+h1, p {
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  background: #fff;
+}
+
+.section-text {
+  width: 100%;
+  background-color: #fff;
+}
+
+h1, p {
+  margin: 0.5rem 0;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  color: white;
+  background-color: #ff1b72;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
 }
