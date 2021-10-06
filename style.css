@@ -1,4 +1,5 @@
 /* normalize */
+html,
 body,
 div,
 h1,
@@ -26,14 +27,21 @@ li {
   list-style: none;
 }
 
+html {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 /* body */
 
 body {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 2rem;
   background-color: #ffc801;
-  width: 100vw;
+  width: 100%;
+  height: 100vh;
   font-size: 16px;
   font-family: verdana sans-serif;
 }
@@ -81,6 +89,10 @@ footer {
   justify-content: center;
 }
 
+.newsletter {
+  margin-top: 2rem;
+}
+
 .container {
   max-width: 800px;
   background: #fff;
@@ -123,4 +135,17 @@ footer {
 
 footer {
   margin-bottom: 0;
+}
+
+.footer-container,
+.sns,
+.sns ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+ul li {
+  font-size: 1.2rem;
 }
