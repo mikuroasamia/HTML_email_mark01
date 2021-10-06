@@ -29,7 +29,7 @@ h1, p {
   margin: 0.5rem 0;
 }
 
-button {
+.btn {
   margin: 2rem 0;
   color: white;
   background-color: #ff1b72;
