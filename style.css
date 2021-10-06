@@ -34,7 +34,6 @@ body {
   gap: 2rem;
   background-color: #ffc801;
   width: 100vw;
-  height: 100vh;
   font-size: 16px;
   font-family: verdana sans-serif;
 }
@@ -120,4 +119,8 @@ footer {
   align-items: center;
   margin: 2rem 0 1rem;
   width: 100px;
+}
+
+footer {
+  margin-bottom: 0;
 }
