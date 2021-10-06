@@ -62,15 +62,31 @@ p {
   background-color: #fff;
 }
 
+.email-input,
 .btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem 0;
   color: white;
   background-color: #ff1b72;
   border: none;
   border-radius: 20px;
-  width: 100px;
   height: 30px;
+}
+
+.email-input {
+  margin: 1rem 0 0 0;
+}
+
+.email-input::placeholder,
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-input::placeholder {
+  width: 100%
+}
+
+.btn {
+  margin: 2rem 0;
+  width: 100px;
 }
