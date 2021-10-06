@@ -2,6 +2,7 @@ body {
   background-color: #ffc801;
   width: 100vw;
   height: 100vh;
+  font-size: 16px;
 }
 
 h1, p {
@@ -32,6 +33,10 @@ button {
   margin: 2rem 0;
   color: white;
   background-color: #ff1b72;
+  border: none;
+  border-radius: 20px;
+  width: 80px;
+  height: 100px;
 }
 
 body,
