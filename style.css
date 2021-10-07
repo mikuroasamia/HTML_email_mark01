@@ -81,7 +81,10 @@ h1 {
 }
 
 .title {
-  color: #fff;
+  /* color: #ff1b72; */
+  background-color: #fff;
+  width: 600px;
+  text-align: center;
 }
 
 p {
@@ -98,7 +101,6 @@ footer {
 
 .newsletter {
   height: 20%;
-  background-color: black;
 }
 
 .container {
